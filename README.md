@@ -44,4 +44,4 @@ If you have any questions feel free to email me at [hello@mikkeltschentscher](ma
 
 ## License
 
-The code is available under the [MIT license](https://github.com/mikkel-tschentscher/responsive-ecommerce-email-template/blob/master/LICENSE).
+The code is available under the [MIT license](https://github.com/mikkel-tschentscher/responsive-ecommerce-email-template/blob/master/LICENSE.txt).
