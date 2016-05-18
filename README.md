@@ -14,7 +14,6 @@ A responsive e-commerce e-mail template build as a starter-theme for your ecomme
 ## Compatibility
 
 The template has been tested throughly with Litmus Email Testing and Email Marketing Analytics.
-
 Inspect the final test from Litmus [here](https://litmus.com/checklist/public/71477d5 "Inspect the e-mail template")
 
 ### E-mail Clients with full compatibility
