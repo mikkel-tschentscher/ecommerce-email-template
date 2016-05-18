@@ -1,6 +1,6 @@
 # A Responsive E-commerce E-mail Template
 
-Build as a starter-theme for your ecommerce e-mail campaigns.  
+Build as a starter-template for your ecommerce campaign layouts.  
 Feel free to edit or use the template as is. [You can inspect the e-mail template here](https://mikkeltschentscher.dk/hosting/shoporama/screenshot.png "Inspect the e-mail template")
 
 ## Features
