@@ -4,7 +4,8 @@
 * MailChimp compatible
 * Drag & Drop in MailChimp
 * Well-commented Markup
-
+* Flexible table structure (delete/copy/replace). 
+* 
 ## Repository Include
 
 * MailChimp compatible file
