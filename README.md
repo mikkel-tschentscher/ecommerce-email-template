@@ -28,7 +28,7 @@ Lotus Notes 8, IBM Notes 9, Outlook 2000, Outlook 2002 , Outlook 2013 120 DPI
 
 *E-mail with partial compatibility will show the content in the right layout, but paddings, line-heights and similar is a bid off.*
 
-### E-mail Clients with no Compatibility
+### E-mail Clients with no compatibility
 
 Lotus Notes 7, Lotus Notes 8.5
 
@@ -36,7 +36,7 @@ Lotus Notes 7, Lotus Notes 8.5
 
 ## Author & Credits
 
-Mikkel Tschentscher, Copenhagen, Denmark. https://mikkeltschentscher.dk
+Mikkel Tschentscher, +45 22 51 31 79, based in Copenhagen, Denmark. [https://mikkeltschentscher.dk](https://mikkeltschentscher.dk)
 
 ## Support
 
