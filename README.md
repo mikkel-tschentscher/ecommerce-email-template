@@ -16,7 +16,7 @@ Apple Mail 8, Apple Mail 9, Outlook 2003, Outlook 2007, Outlook 2010, Outlook 20
 
 ### Partial Compatibility
 
-Lotus Notes 8, IBM Notes 9, Outlook 2000, Outlook 2002 , Outlook 2013 120 DPI, 
+Lotus Notes 8, IBM Notes 9, Outlook 2000, Outlook 2002 , Outlook 2013 120 DPI
 
 ### No Compatibility
 
