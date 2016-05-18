@@ -30,9 +30,9 @@
 
 * Lotus Notes 7, Lotus Notes 8.5
 
-### Web-font support: Compatibility
+#### Web-font Compatibility
 
-* Outlook 2000/02/03/07/10/13: Limited web-font support. Fallback to Arial, Sans-serif
+* Outlook 2000/02/03/07/10/13 has limited web-font support. Fallback to Arial, Sans-serif.
 
 ## Notes
 
