@@ -8,7 +8,7 @@ Feel free to edit or use the template as is. [You can inspect the e-mail templat
 * Responsive E-mail Template
 * MailChimp compatible template with drag & drop functionality
 * Flexible table structure (delete/copy/replace).
-* Well-commented and handwritten HTML
+* Well-commented HTML
 * Coming soon: ShopOrama Product Feed for MailChimp
 
 ## Compatibility
