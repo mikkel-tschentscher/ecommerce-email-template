@@ -41,3 +41,7 @@ Mikkel Tschentscher, +45 22 51 31 79, based in Copenhagen, Denmark. [https://mik
 ## Support
 
 If you have any questions feel free to email me at [hello@mikkeltschentscher](mailto:hello@mikkeltschentscher.dk).
+
+## License
+
+The code is available under the [MIT license](https://github.com/mikkel-tschentscher/responsive-ecommerce-email-template/blob/master/LICENSE).
