@@ -28,4 +28,4 @@ Mikkel Tschentscher, https://mikkeltschentscher.dk
 
 ## Support
 
-If you have any questions feel free to email me at hello@mikkeltschentscher. (Response time can be up to 5 business days).
+If you have any questions feel free to email me at hello@mikkeltschentscher.
