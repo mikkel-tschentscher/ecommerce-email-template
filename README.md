@@ -11,6 +11,20 @@ Feel free to edit or use the template as is. [You can inspect the e-mail templat
 * Valid XHTML 1.0 Transitional! Markup (Via https://validator.w3.org/check)
 * Coming soon: ShopOrama Product Feed for MailChimp
 
+## Getting started
+
+### The MailChimp Template
+
+* Coming soon
+
+### The HTML Template
+
+* Coming soon
+
+### The ShopOrama Product Feed
+
+* Coming soon
+
 ## Compatibility
 
 The template has been tested throughly with Litmus Email Testing and Email Marketing Analytics.  
