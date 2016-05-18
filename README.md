@@ -1,6 +1,6 @@
 # Responsive Ecommerce E-mail Template
 
-The template design can be seen here. (https://mikkeltschentscher.dk/hosting/shoporama/screenshot.png)
+A responsive e-commerce e-mail template build as a starter-theme for your ecommerce campaigns. Feel free to edit or use it as is. [You can inspect the e-mail template here](https://mikkeltschentscher.dk/hosting/shoporama/screenshot.png "Inspect the e-mail template")
 
 
 ## Features
@@ -12,6 +12,9 @@ The template design can be seen here. (https://mikkeltschentscher.dk/hosting/sho
 * Coming soon: ShopOrama Product Feed for MailChimp
 
 ## Compatibility
+
+The template has been tested throughly with Litmus Email Testing and Email Marketing Analytics.
+[Inspect the final test from Litmus here](https://litmus.com/checklist/public/71477d5 "Inspect the e-mail template")
 
 ### Full Compatibility
 
