@@ -1,1 +1,124 @@
+<{assign var="products" value=$landing_page->getProducts()}>
+<{assign var="temp" value=0}>
 
+<{section name="i" loop=$products}>
+	
+	<{if $temp%2==0}>
+
+			<!-- Section: Start: Product Row -->
+            <table class="table-inner" align="center" border="0" cellpadding="0" cellspacing="0" width="600" >
+                <tr>
+                    <td align="left" valign="top" width="96%"  bgcolor="#f5f5f5"  style="border:0; padding:0 2%; margin:0; padding-top:20px;">
+						
+						<{/if}>
+
+						<table class="table-full" align="left" border="0" cellpadding="0" cellspacing="0" width="46%" style=" margin-left:2%; margin-right:2%; margin-bottom:15px; width:46%;">
+                            
+                            <{if $products[i]->getImages()}>
+	                            <tr>
+	                                <td valign="top"  style="border:0; padding:0; margin:0; width:100%!important;">
+	                                    <a href="<{$webshop->getUrl()}><{$products[i]->getUrl()}>">
+	                                    	<{assign var="images" value=$products[i]->getImages()}>
+											<{section name="j" loop=$images max=1}>
+												<img src="<{$webshop->getUrl()}><{$images[j]->getSrc(300,300, 'fit')}>" aalt="<{$products[i]->getName()|escape}>" style="display:block; width:100%; height:auto; padding:0; margin:0;" />
+											<{/section}>
+	                                    </a>
+	                                </td>
+	                            </tr>
+                            <{/if}>
+
+                            <tr>
+                                <td valign="top" bgcolor="#ffffff" style="padding:20px; margin:0; border:0; background:#ffffff; box-shadow: 0px 0px 2px #e6e6e6;">
+                                    
+                                	<{if $products[i]->getIsInStock()}>
+							            <{if $products[i]->getDeliveryTime()}>
+							                <span style="display:block; color:#a9adb7; font-size:11px; font-weight:100; padding:0; margin:0; margin-bottom:5px;">
+							                	In Stock - <{$products[i]->getDeliveryTime()|escape}> day delivery
+							                </span>
+							            <{/if}>
+							        <{else}>
+							            <{if $products[i]->getDeliveryTimeNotInStock()}>
+							                <span style="display:block; color:#a9adb7; font-size:11px; font-weight:100; padding:0; margin:0; margin-bottom:5px;">
+							                	Not in stock - <{$products[i]->getDeliveryTimeNotInStock()|escape}> day delivery
+							                </span>
+							            <{/if}>
+							        <{/if}>
+
+							        <{if $products[i]->getName()}>
+	                                    <h2 style="padding:0; margin:0; font-size:24px; color:#30363d; margin-bottom:10px; font-weight:400;">
+	                                    	<a href="<{$webshop->getUrl()}><{$products[i]->getUrl()}>" style="color:#30363d;text-decoration:none;">
+	                                    		<{$products[i]->getName()|escape|truncate:30}>
+	                                    	</a>
+	                                    </h2>
+                                    <{/if}>
+
+                                    <{if $products[i]->getListDescription()}>
+	                                    <p style="padding:0; margin:0; font-size:16px; color:#30363d; font-weight:100; margin-bottom:15px;">
+	                                    	<{$products[i]->getListDescription()|escape|truncate:100}>
+	                                    </p>
+	                                <{/if}>
+
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td valign="top" width="230" style="border:0; padding:0; margin:0; width:190px!important;">
+
+                                            	<{if $products[i]->getSalePrice()}>
+											        <small style="display:block; text-decoration:line-through; font-size:12px; color:#a9adb7; font-weight:100;">
+											        	<{$webshop->getCurrency()}> <{$products[i]->getPrice()|number_format:0:"":""}>
+											        </small>
+											        <span style="display:block; font-size:17px; color:#30363d; font-weight:400;">
+											        	<{$webshop->getCurrency()}> <{$products[i]->getSalePrice()|number_format:0:"":""}>
+											        </span>
+											        
+											    <{else}>
+											        <span style="display:block; font-size:17px; color:#30363d; font-weight:400;">
+											        	<{$webshop->getCurrency()}><{$products[i]->getPrice()|number_format:0:"":""}>
+											        </span>
+											    <{/if}>
+
+                                            </td>
+                                            <td valign="top" width="100" align="left" style="border:0; padding:0; margin:0; width:100px!important;">                                        
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td>
+                                                            <div>
+                                                                <!--[if mso]>
+                                                                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36px;v-text-anchor:middle;width:100px;" arcsize="5%" strokecolor="#006dc7" fillcolor="#006dc7">
+                                                                <w:anchorlock/>
+                                                                <center style="color:#ffffff;font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight:100; font-size:16px;">Buy Now</center>
+                                                                </v:roundrect>
+                                                                <![endif]-->
+                                                                <a href="<{$webshop->getUrl()}><{$products[i]->getUrl()}>" style="background-color:#006dc7; border:0;border-radius:2px;color:#ffffff;display:inline-block; font-weight:100; font-size:16px;line-height:44px; width:100px;text-align:center;text-decoration:none;-webkit-text-size-adjust:none;mso-hide:all;" >Buy Now</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+
+                    	<{if $temp%2!=0}>
+
+					</td>
+                </tr>
+            </table>
+            <!-- Module: End: Product Row-->
+
+	<{/if}>
+
+	<{math assign="temp" equation=x+1 x=$temp}>
+
+<{/section}>
+
+<{if $temp%2!=0}>
+
+			</td>
+        </tr>
+    </table>
+    <!-- Module: End: Product Row-->
+
+<{/if}>
