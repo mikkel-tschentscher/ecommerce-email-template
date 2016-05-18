@@ -24,6 +24,8 @@ Apple Mail 8, Apple Mail 9, Outlook 2003, Outlook 2007, Outlook 2010, Outlook 20
 
 Lotus Notes 8, IBM Notes 9, Outlook 2000, Outlook 2002 , Outlook 2013 120 DPI
 
+*E-mail with partial compatibility will show the content in the right layout, but paddings, line-heights and similar is a bid off.*
+
 ### E-mail Clients with no Compatibility
 
 Lotus Notes 7, Lotus Notes 8.5
