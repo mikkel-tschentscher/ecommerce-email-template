@@ -2,7 +2,6 @@
 
 A responsive e-commerce e-mail template build as a starter-theme for your ecommerce campaigns. Feel free to edit or use it as is. [You can inspect the e-mail template here](https://mikkeltschentscher.dk/hosting/shoporama/screenshot.png "Inspect the e-mail template")
 
-
 ## Features
 
 * Responsive E-mail Template
@@ -13,7 +12,7 @@ A responsive e-commerce e-mail template build as a starter-theme for your ecomme
 
 ## Compatibility
 
-The template has been tested throughly with Litmus Email Testing and Email Marketing Analytics.
+The template has been tested throughly with Litmus Email Testing and Email Marketing Analytics.  
 [Inspect the final test from Litmus here](https://litmus.com/checklist/public/71477d5 "Inspect the e-mail template")
 
 ### E-mail Clients with full compatibility
@@ -30,7 +29,7 @@ Lotus Notes 7, Lotus Notes 8.5
 
 ## Author & Credits
 
-Mikkel Tschentscher, https://mikkeltschentscher.dk
+Mikkel Tschentscher, Copenhagen, Denmark. https://mikkeltschentscher.dk
 
 ## Support
 
