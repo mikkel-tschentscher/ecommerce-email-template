@@ -1,5 +1,8 @@
 # Responsive Ecommerce E-mail Template
 
+The template design can be seen here. (https://mikkeltschentscher.dk/hosting/shoporama/screenshot.png)
+
+
 ## Features
 
 * Responsive E-mail Template
