@@ -18,17 +18,21 @@
 
 ## Compatibility
 
-### Desktop
-Apple Mail 7/8, Outlook 2000/2002/2003/2013, Outlook 2016 OS X, Thunderbird 38.
+### Full Compatibility
 
-### Mobile
-Android 4.4, Gmail App Android, iPhone 5s, iPhone 6, iPhone 6 Plus, iPhone 6s, iPhone 6s Plus, iPad Retina, iPad Mini.
+* Apple Mail 8, Apple Mail 9, Outlook 2003, Outlook 2007, Outlook 2010, Outlook 2011, Outlook 2013, Outlook 2016, Thunderbird 38, Android 4.4, Gmail App (Android), iPhone 5s (iOS 7), iPhone 5s (iOS 8), iPhone 6, iPhone 6 Plus, iPhone 6s, iPhone 6s Plus, iPad (Retina), iPad Mini, AOL Mail, Gmail, Inbox by Gmail, GMX.de, Google Apps,Office 365, Outlook.com,Web.de, Yahoo! Mail
 
-### Web
-AOL Mail, Gmail, Google Apps, Office 365, Outlook.com, Yahoo! Mail 
-(tested on Explorer, Firefox and Chrome).
+### Partial Compatibility
 
-Background image not supported in Outlook 2007/10/2013 (Windows 7) and Gmail App (Android); Round corners not support in Outlook 2000/02/03/07/10/13; Limited web-font support.
+* Lotus Notes 8, IBM Notes 9, Outlook 2000, Outlook 2002 , Outlook 2013 120 DPI, 
+
+### No Compatibility
+
+* Lotus Notes 7, Lotus Notes 8.5
+
+### Web-font support: Compatibility
+
+* Outlook 2000/02/03/07/10/13: Limited web-font support. Fallback to Arial, Sans-serif
 
 ## Notes
 
