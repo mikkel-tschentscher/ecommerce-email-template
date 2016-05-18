@@ -1,3 +1,8 @@
+# Responsive Ecommerce E-mail Template
+
+
+## Getting Started
+
 ## Features
 
 * Responsive Email Template
@@ -5,7 +10,7 @@
 * Drag & Drop in MailChimp
 * Well-commented Markup
 * Flexible table structure (delete/copy/replace). 
-* 
+
 ## Repository Include
 
 * MailChimp compatible file
@@ -29,7 +34,6 @@ Background image not supported in Outlook 2007/10/2013 (Windows 7) and Gmail App
 
 * Images used on preview are not included.
 
-
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -37,11 +41,6 @@ Background image not supported in Outlook 2007/10/2013 (Windows 7) and Gmail App
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
-## History
-TODO: Write history
-
 ## Credits
-TODO: Write credits
 
 ## License
-TODO: Write license
