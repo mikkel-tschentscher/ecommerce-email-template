@@ -3,7 +3,7 @@
 ## Features
 
 * Responsive E-mail Template
-* MailChimp compatible with drag & drop
+* MailChimp compatible template with drag & drop functionality
 * Flexible table structure (delete/copy/replace).
 * Well-commented and handwritten HTML
 * Coming soon: ShopOrama Product Feed for MailChimp
