@@ -1,7 +1,7 @@
 # A Responsive E-commerce E-mail Template
 
 Build as a starter-template for your ecommerce campaign layouts.
-Feel free to edit or use the template as is. [You can inspect the e-mail template here](https://mikkeltschentscher.dk/hosting/shoporama/screenshot.png "Inspect the e-mail template")
+Feel free to edit or use the template as is.
 
 ## Features
 
@@ -43,6 +43,10 @@ This template can be used with a ShopOrama product feed. Here's how to make that
 * Add the section called `module_product_html_feed` to your campaign. 
 * Edit the contents of this module, and choose the "HTML"-icon. Delete everything in here, and paste in the copied HTML.
 * There you have it. Products are now automatically inserted into your e-mail.
+
+## Demo
+
+![Design Demo](https://mikkeltschentscher.dk/hosting/shoporama/screenshot.png "Design Demo")
 
 ## Compatibility
 
