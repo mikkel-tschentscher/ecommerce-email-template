@@ -53,7 +53,7 @@ This template can be used with a ShopOrama product feed. Here's how to make that
 ## Compatibility
 
 The template has been tested throughly with Litmus Email Testing and Email Marketing Analytics.  
-[Inspect the final test from Litmus here](https://litmus.com/checklist/public/71477d5 "Inspect the e-mail template")
+[Inspect the final test from Litmus here](https://litmus.com/pub/71477d5 "Inspect the e-mail template")
 
 
 ### E-mail Clients with full compatibility
