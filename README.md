@@ -46,7 +46,7 @@ This template can be used with a ShopOrama product feed. Here's how to make that
 
 ## Demo
 
-![Design Template](https://mikkeltschentscher.dk/hosting/shoporama/screenshot-v2.png "Design Template")
+![Design Template](https://mikkeltschentscher.dk/hosting/shoporama/screenshot-v1.png "Design Template")
 
 ## Compatibility
 
