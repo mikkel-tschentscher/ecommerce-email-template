@@ -38,11 +38,11 @@ This template is intentionally build to be used with MailChimp and a ShopOrama p
 * Create a landingpage. Name it "mailchimp product feed". Set it to `no-index, follow`
 * Set the settings of your landingpage to your liking. All products in this feed, will be shown in your e-mail.
 * Download the `mailchimp-product-feed.xml` from this repository and upload it to the sFTP.
-* In the "XML" widget of your landingpage, put in "mailchimp-product-feed.xml". Save the landingpage.
-* Now open: http://shop.shoporama.dk/mailchimp-product-feed.xml ("shop" should be changed with your name)
+* In the "XML" widget of your landingpage, put in `mailchimp-product-feed.xml`. Save the landingpage.
+* Now open: `http://shop.shoporama.dk/mailchimp-product-feed.xml` ("shop" should be changed with your name)
 * Inspect the page and show the HTML-source. Copy all HTML from this page.
 * Open MailChimp. Create a Campaign. Choose to use this template.
-* Add the section called "module_product_html_feed" to your campaign. 
+* Add the section called `module_product_html_feed` to your campaign. 
 * Edit the contents of this module, and choose the "HTML"-icon. Delete everything in here, and paste in the copied HTML.
 * There you have it. Products are now automatically inserted into your e-mail.
 
