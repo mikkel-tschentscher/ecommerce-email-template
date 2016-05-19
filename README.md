@@ -1,6 +1,6 @@
 # A Responsive E-commerce E-mail Template
 
-Build as a starter-template for your ecommerce campaign layouts.  
+Build as a starter-template for your ecommerce campaign layouts.
 Feel free to edit or use the template as is. [You can inspect the e-mail template here](https://mikkeltschentscher.dk/hosting/shoporama/screenshot.png "Inspect the e-mail template")
 
 ## Features
@@ -15,15 +15,36 @@ Feel free to edit or use the template as is. [You can inspect the e-mail templat
 
 ### The MailChimp Template
 
-* Coming soon
+* Open up `email-template-plain.html` and copy the HTML into your MailChimp Template
+* The template has all required MailChimp markup for you to edit the template in design-mode.
+* Use the template as is. They'll put the CSS inline for you when you send your campaign.
 
 ### The HTML Template
 
-* Coming soon
+To use the HTML-template with your CMS you need to put the CSS inline. You can use [Premailer](http://premailer.dialect.ca/) to do this automatically.
+
+* Copy all of `email-template-mailchimp.html`
+* Paste the HTML as the source into Premailer
+* Copy the HTML results and use them in your email view/template
+* Note that some services may allow you to opt into CSS inlining, such as Mandrill.
+
+*You can use the `email-template-compiled.html`. It is compiled for you. *
 
 ### The ShopOrama Product Feed
 
-* Coming soon
+This template is intentionally build to be used with MailChimp and a ShopOrama product feed. To make this work, follow these guides:
+
+* Open ShopOrama
+* Create a landingpage. Name it "mailchimp product feed". Set it to `no-index, follow`
+* Set the settings of your landingpage to your liking. All products in this feed, will be shown in your e-mail.
+* Download the `mailchimp-product-feed.xml` from this repository and upload it to the sFTP.
+* In the "XML" widget of your landingpage, put in "mailchimp-product-feed.xml". Save the landingpage.
+* Now open: http://shop.shoporama.dk/mailchimp-product-feed.xml ("shop" should be changed with your name)
+* Inspect the page and show the HTML-source. Copy all HTML from this page.
+* Open MailChimp. Create a Campaign. Choose to use this template.
+* Add the section called "module_product_html_feed" to your campaign. 
+* Edit the contents of this module, and choose the "HTML"-icon. Delete everything in here, and paste in the copied HTML.
+* There you have it. Products are now automatically inserted into your e-mail.
 
 ## Compatibility
 
