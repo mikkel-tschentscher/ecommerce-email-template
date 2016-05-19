@@ -30,7 +30,7 @@ To use the HTML-template with your CMS you need to put the CSS inline. You can u
 
 ### The ShopOrama Product Feed
 
-This template is intentionally build to be used with MailChimp and a ShopOrama product feed. To make this work, follow these guides:
+This template can be used with a ShopOrama product feed. Here's how to make that work in MailChimp:
 
 * Open ShopOrama
 * Create a landingpage. Name it "mailchimp product feed". Set it to `no-index, follow`
