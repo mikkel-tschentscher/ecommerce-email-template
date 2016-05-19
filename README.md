@@ -28,8 +28,6 @@ To use the HTML-template with your CMS you need to put the CSS inline. You can u
 * Copy the HTML results and use them in your email view/template
 * Note that some services may allow you to opt into CSS inlining, such as Mandrill.
 
-*You can use the `email-template-compiled.html`. It is compiled for you. *
-
 ### The ShopOrama Product Feed
 
 This template is intentionally build to be used with MailChimp and a ShopOrama product feed. To make this work, follow these guides:
