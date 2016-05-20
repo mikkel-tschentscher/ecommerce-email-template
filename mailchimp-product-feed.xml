@@ -1,6 +1,9 @@
 <{assign var="products" value=$landing_page->getProducts()}>
 <{assign var="temp" value=0}>
 <{assign var="btn_txt" value="Buy now"}>
+<{assign var="in_stock_txt" value="In stock"}>
+<{assign var="out_of_stock_txt" value="Out of stock"}>
+<{assign var="del_txt" value="days delivery"}>
 
 <{section name="i" loop=$products}>
     
@@ -38,13 +41,13 @@
                                             <{if $products[i]->getIsInStock()}>
                                                 <{if $products[i]->getDeliveryTime()}>
                                                     <p class="meta">
-                                                        In Stock - <{$products[i]->getDeliveryTime()|escape}> day delivery
+                                                        <{$in_stock_txt}> - <{$products[i]->getDeliveryTime()|escape}> <{$del_txt}>
                                                     </p>
                                                 <{/if}>
                                             <{else}>
                                                 <{if $products[i]->getDeliveryTimeNotInStock()}>
                                                     <p class="meta">
-                                                        Not in stock - <{$products[i]->getDeliveryTimeNotInStock()|escape}> day delivery
+                                                        <{$out_of_stock_txt}> - <{$products[i]->getDeliveryTimeNotInStock()|escape}> <{$del_txt}>
                                                     </p>
                                                 <{/if}>
                                             <{/if}>
