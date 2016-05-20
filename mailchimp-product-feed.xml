@@ -23,7 +23,7 @@
                                                 <a href="<{$webshop->getUrl()}><{$products[i]->getUrl()}>" title="<{$products[i]->getName()|escape}>">
                                                     <{assign var="images" value=$products[i]->getImages()}>
                                                     <{section name="j" loop=$images max=1}>
-                                                        <img src="<{$webshop->getUrl()}><{$images[j]->getSrc(300,300, 'fit')}>" aalt="<{$products[i]->getName()|escape}>" />
+                                                        <img src="<{$webshop->getUrl()}><{$images[j]->getSrc(264,264, 'fit')}>" aalt="<{$products[i]->getName()|escape}>" />
                                                     <{/section}>
                                                 </a>
                                             </td>
