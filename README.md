@@ -52,20 +52,18 @@ This template can be used with a ShopOrama product feed. Here's how to make that
 
 ## Compatibility
 
-The template has been tested throughly with Litmus Email Testing and Email Marketing Analytics.  
-[Inspect the final test from Litmus here](https://litmus.com/pub/71477d5 "Inspect the e-mail template")
-
+The template has been tested throughly with Litmus Email Testing and Email Marketing Analytics. 
 
 ### E-mail Clients with full compatibility
 
-Apple Mail 8, Apple Mail 9, Outlook 2000, Outlook 2002, Outlook 2003, Outlook 2007, Outlook 2010, Outlook 2011, Outlook 2013, Outlook 2016, Thunderbird 38, Android 4.4, Gmail App (Android), iPhone 5s (iOS 7), iPhone 5s (iOS 8), iPhone 6, iPhone 6 Plus, iPhone 6s, iPhone 6s Plus, iPad (Retina), iPad Mini, AOL Mail, Gmail, Inbox by Gmail, GMX.de, Google Apps,Office 365, Outlook.com,Web.de, Yahoo! Mail
+Apple Mail 8, Apple Mail 9, Outlook 2007, Outlook 2010, Outlook 2011, Outlook 2013, Outlook 2016, Thunderbird 38, Android 4.4, Gmail App (Android), iPhone 5s (iOS 7), iPhone 5s (iOS 8), iPhone 6, iPhone 6 Plus, iPhone 6s, iPhone 6s Plus, iPad (Retina), iPad Mini, AOL Mail, Gmail, Inbox by Gmail, GMX.de, Google Apps,Office 365, Outlook.com,Web.de, Yahoo! Mail
 
 *E-mail with full compatibility will match the original design as seen above*
 
 
 ### E-mail Clients with partial compatibility
 
-Lotus Notes 8, IBM Notes 9, Outlook 2013 120 DPI
+Lotus Notes 8, IBM Notes 9, Outlook 2000, Outlook 2002, Outlook 2003, Outlook 2013 120 DPI
 
 *E-mail with partial compatibility will show the content in the right layout, but paddings, line-heights and similar is a bid off.*
 
