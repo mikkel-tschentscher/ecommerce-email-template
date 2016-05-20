@@ -20,7 +20,7 @@
                                         <!-- Module: End: Product Image -->
                                         <tr>
                                             <td valign="top" class="product-image">
-                                                <a href="<{$webshop->getUrl()}><{$products[i]->getUrl()}>" title="<{$products[i]->getName()|escape}>">
+                                                <a href="<{$webshop->getUrl()}>/<{$products[i]->getUrl()}>" title="<{$products[i]->getName()|escape}>">
                                                     <{assign var="images" value=$products[i]->getImages()}>
                                                     <{section name="j" loop=$images max=1}>
                                                         <img src="<{$webshop->getUrl()}><{$images[j]->getSrc(264,264, 'fit')}>" aalt="<{$products[i]->getName()|escape}>" />
@@ -52,7 +52,7 @@
 
                                             <{if $products[i]->getName()}>
                                                 <h2>
-                                                    <a href="<{$webshop->getUrl()}><{$products[i]->getUrl()}>" title="<{$products[i]->getName()|escape}>">
+                                                    <a href="<{$webshop->getUrl()}>/<{$products[i]->getUrl()}>" title="<{$products[i]->getName()|escape}>">
                                                         <{$products[i]->getName()|escape|truncate:30}>
                                                     </a>
                                                 </h2>
@@ -101,7 +101,7 @@
                                                                               <center style="color:#ffffff;font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight:100; font-size:16px;"><{$btn_txt}></center>
                                                                             </v:roundrect>
                                                                         <![endif]-->
-                                                                        <a href="<{$webshop->getUrl()}><{$products[i]->getUrl()}>" class="product-button"><{$btn_txt}></a>
+                                                                        <a href="<{$webshop->getUrl()}>/<{$products[i]->getUrl()}>" class="product-button"><{$btn_txt}></a>
                                                                     </div>
                                                                 </td>
                                                             </tr>
