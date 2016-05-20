@@ -15,7 +15,7 @@ Feel free to edit or use the template as is.
 
 ### The MailChimp Template
 
-* Open up `email-template-plain.html` and copy the HTML into your MailChimp Template
+* Open up `email-template-mailchimp.html` and copy the HTML into your MailChimp Template
 * The template has all required MailChimp markup for you to edit the template in design-mode.
 * Use the template as is. They'll put the CSS inline for you when you send your campaign.
 
