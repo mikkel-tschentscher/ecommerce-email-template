@@ -29,10 +29,10 @@
             background-color: #eeeeee;
         }
         img {
-            display: block;
-            width: 100%;
+            display: block!important;
+            width: 100%!important;
             max-width: 600px !important;
-            height: auto;
+            height: auto!important;
             margin: 0;
             padding: 0;
             text-decoration: none;
@@ -106,7 +106,8 @@
             padding: 0;
               color: #fff!important;
         }
-        .full_width {
+        .full_width,
+        .full_wrapper {
             max-width:600px;
         }
         .full_width_text {
@@ -315,6 +316,10 @@
                 width: 96% !important;
                 max-width: 600px!important;
             }
+            table[class='full_wrapper'] {
+                width: 100% !important;
+                max-width: 600px!important;
+            }
         }
         @media only screen and (max-width: 599px) {
             table[class='table-full'],
@@ -342,420 +347,421 @@
     <body>
         <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#eeeeee">
 
-
-            <!-- Section: Start: Preheader -->
-            <tr class="mb_hide" mc:hideable>
-                <td align="center"  valign="top">
-                    <table border="0" cellpadding="0" cellspacing="0" width="600" class="full_width">
-                        <tr>
-                            <td valign="top" class="preheader">
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="full_width">
-                                    <tr>    
-                                        <td valign="top" align="left" mc:edit="module_preheader"><p>
-                                            
-                                            Enim ad minim veniam, quis nostrud exercitation ullamco</p></td>                    
-                                        <td valign="middle" align="right">
-                                            <a href="*|ARCHIVE|*" target="_blank" mc:edit="module_viewinbrowser">View this e-mail in your browser</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- Section: End: Preheader -->           
-        
-
-            <!-- Section: Start: Header -->
-            <tr mc:hideable>
-                <td align="center" valign="top">
-                    <table border="0" cellpadding="0" cellspacing="0" width="600" class="full_width">
-                        <tr>
-                            <td valign="top" bgcolor="#30363d" class="branding">
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="full_width">
-                                    <tr>
-                                        <td align="left" valign="top" width="150" class="brandname" mc:edit="module_brandname">Brandname</td>
-                                        <td  class="mb_hide" align="right" valign="middle">
-                                            <a href="#" class="nav-link" mc:edit="module_link_one">Link item</a>
-                                            <a href="#" class="nav-link" mc:edit="module_link_two">Link item</a>
-                                            <a href="#" class="nav-link" mc:edit="module_link_three">Link item</a>
-                                            <a href="#" class="nav-link" mc:edit="module_link_four">Link item</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- Section: End: Header -->
-
-
-            <!-- Section: Start: Full-width Image -->
-            <tr mc:repeatable="module" mc:variant="module_image_row" mc:hideable>
-                <td align="center" width="100%" class="full_width_image">
-                    <table border="0" cellpadding="0" cellspacing="0" width="600" class="full_width">
-                        <tr>
-                            <td width="100%" valign="top">
-                                <img src="http://placehold.it/600x350" alt="#" width="600" style="max-width:600px; display:block; width:100%; height:auto;" mc:label="header_image" mc:edit="module_image" mc:allowdesigner mc:allowtext/>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            
-            <!-- Section: End: Full-width Image -->
-
-
-            <!-- Section: Start: Text Coloumn -->
-            <tr mc:repeatable="module" mc:variant="module_text_row" mc:hideable>
-                <td align="center"  valign="top">
-                    <table border="0" cellpadding="0" cellspacing="0" width="600" class="full_width">
-                        <tr>
-                            <td align="left" valign="top" bgcolor="#ffffff" class="full_width_text" mc:edit="module_body">
-                                <h1>Headline H1</h1>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- Section: End: Text Coloumn -->
-
-
-            <!-- Section: Start: Product Row (HTML feed) -->
-            <tr mc:repeatable="module" mc:variant="module_product_html_feed" mc:hideable class="product">
-                <td align="center" valign="top" width="100%"  class="product-row" mc:edit="module_products_html">
-                    <table class="table-inner" align="center" border="0" cellpadding="0" cellspacing="0" width="600" >
-                        <tr>
-                            <td align="left" valign="top" width="96%"  bgcolor="#f5f5f5"  class="product-col" style="padding-top:20px;">
-
-                                <!-- Section: Start: Product Column -->
-                                <table class="product-outer" align="left" border="0" cellpadding="0" cellspacing="0" width="46%">
-
-
-                                    <!-- Module: End: Product Image -->
-                                    <tr>
-                                        <td valign="top" class="product-image">
-                                            <img src="http://placehold.it/264x264" alt="#" />
-                                        </td>
-                                    </tr>
-                                    <!-- Module: Start: Product Image -->
-
-
-                                    <!-- Module: Start: Product Content -->
-                                    <tr>
-                                        <td valign="middle" bgcolor="#ffffff" class="product-inner">
-                                            <p class="meta">In Stock - 2-3 day delivery</p>
-                                            <h2>Product Title</h2>
-                                            <p>Collaboratively administrate em powered markets.</p>
-
-                                            <table align="left"  border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                <tr>
-
-                                                    <!-- Module: Start: Prices -->
-                                                    <td valign="middle" class="prices">
-                                                        <small>$1599</small>
-                                                        <p class="price">$1299</p>
-                                                    </td>
-                                                    <!-- Module: End: Prices -->
-
-                                                    <!-- Module: Start: Button -->
-                                                    <td valign="top" width="100" align="left" class="btn-col">                                        
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                                            <tr>
-                                                                <td>
-                                                                    <div>
-                                                                        <!--[if mso]>
-                                                                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36px;v-text-anchor:middle;width:100px;" arcsize="5%" strokecolor="#006dc7" fillcolor="#006dc7">
-                                                                            <w:anchorlock/>
-                                                                              <center style="color:#ffffff;font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight:100; font-size:16px;">Buy Now</center>
-                                                                            </v:roundrect>
-                                                                        <![endif]-->
-                                                                        <a href="#" class="product-button">Buy Now</a>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                    <!-- Module: End: Button -->
-
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                     <!-- Module: End: Product Content -->
-                                     <tr>
-                                        <td valign="top" class="space"></td>
-                                    </tr>
-
-                                </table>
-                                <!-- Section: End: Product Column -->
-
-                                <!-- Section: Start: Product Column -->
-                                <table class="product-outer" align="left" border="0" cellpadding="0" cellspacing="0" width="46%">
-
-
-                                    <!-- Module: End: Product Image -->
-                                    <tr>
-                                        <td valign="top" class="product-image">
-                                            <img src="http://placehold.it/264x264" alt="#" />
-                                        </td>
-                                    </tr>
-                                    <!-- Module: Start: Product Image -->
-
-
-                                    <!-- Module: Start: Product Content -->
-                                    <tr>
-                                        <td valign="middle" bgcolor="#ffffff" class="product-inner">
-                                            <p class="meta">In Stock - 2-3 day delivery</p>
-                                            <h2>Product Title</h2>
-                                            <p>Collaboratively administrate em powered markets.</p>
-
-                                            <table align="left"  border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                <tr>
-
-                                                    <!-- Module: Start: Prices -->
-                                                    <td valign="middle" class="prices">
-                                                        <small>$1599</small>
-                                                        <p class="price">$1299</p>
-                                                    </td>
-                                                    <!-- Module: End: Prices -->
-
-                                                    <!-- Module: Start: Button -->
-
-                                                    <td valign="top" width="100" align="left" class="btn-col">                                        
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                                            <tr>
-                                                                <td>
-                                                                    <div>
-                                                                        <!--[if mso]>
-                                                                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36px;v-text-anchor:middle;width:100px;" arcsize="5%" strokecolor="#006dc7" fillcolor="#006dc7">
-                                                                            <w:anchorlock/>
-                                                                              <center style="color:#ffffff;font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight:100; font-size:16px;">Buy Now</center>
-                                                                            </v:roundrect>
-                                                                        <![endif]-->
-                                                                        <a href="#" class="product-button">Buy Now</a>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                    <!-- Module: End: Button -->
-
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                     <!-- Module: End: Product Content -->
-                                    <tr>
-                                        <td valign="top" class="space"></td>
-                                    </tr>
-                                </table>
-                                <!-- Section: End: Product Column -->
-
-
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- Section: End: Product Row (HTML Feed) -->
-
-
-            <!-- Section: Start: Product Row -->
-            <tr mc:repeatable="module" mc:variant="module_products_editable" mc:hideable class="product">
-                <td align="center" valign="top" width="100%"  class="product-row">
-                    <table class="table-inner" align="center" border="0" cellpadding="0" cellspacing="0" width="600" >
-                        <tr>
-                            <td align="left" valign="top" width="96%"  bgcolor="#f5f5f5"  class="product-col">
-
-                                <!-- Section: Start: Product Column -->
-                                <table class="product-outer" align="left" border="0" cellpadding="0" cellspacing="0" width="46%">
-
-
-                                    <!-- Module: End: Product Image -->
-                                    <tr>
-                                        <td valign="top" class="product-image">
-                                            <img src="http://placehold.it/264x264" mc:edit="product_image_one"/>
-                                        </td>
-                                    </tr>
-                                    <!-- Module: Start: Product Image -->
-
-
-                                    <!-- Module: Start: Product Content -->
-                                    <tr>
-                                        <td valign="middle" bgcolor="#ffffff" class="product-inner">
-                                            <p class="meta" mc:edit="product_meta_one">In Stock - 2-3 day delivery</p>
-                                            <h2 mc:edit="product_title_one">Product Title</h2>
-                                            <p mc:edit="product_desc_one">Collaboratively administrate em powered markets.</p>
-
-                                            <table align="left"  border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                <tr>
-
-                                                    <!-- Module: Start: Prices -->
-                                                    <td valign="middle" class="prices">
-                                                        <small mc:edit="product_prev_price_one">$1599</small>
-                                                        <p class="price" mc:edit="product_price_one">$1299</p>
-                                                    </td>
-                                                    <!-- Module: End: Prices -->
-
-                                                    <!-- Module: Start: Button -->
-                                                    <td valign="top" width="100" align="left" class="btn-col">                                        
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                                            <tr>
-                                                                <td>
-                                                                    <div mc:edit="product_button_one">
-                                                                        <!--[if mso]>
-                                                                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36px;v-text-anchor:middle;width:100px;" arcsize="5%" strokecolor="#006dc7" fillcolor="#006dc7">
-                                                                            <w:anchorlock/>
-                                                                              <center style="color:#ffffff;font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight:100; font-size:16px;">Buy Now</center>
-                                                                            </v:roundrect>
-                                                                        <![endif]-->
-                                                                        <a href="#" class="product-button">Buy Now</a>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                    <!-- Module: End: Button -->
-
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                     <!-- Module: End: Product Content -->
-                                    <tr>
-                                        <td valign="top" class="space"></td>
-                                    </tr>
-                                </table>
-                                <!-- Section: End: Product Column -->
-
-                                <!-- Section: Start: Product Column -->
-                                <table class="product-outer" align="left" border="0" cellpadding="0" cellspacing="0" width="46%">
-
-
-                                    <!-- Module: End: Product Image -->
-                                    <tr>
-                                        <td valign="top" class="product-image">
-                                            <img src="http://placehold.it/264x264" mc:edit="product_image_two"/>
-                                        </td>
-                                    </tr>
-                                    <!-- Module: Start: Product Image -->
-
-
-                                    <!-- Module: Start: Product Content -->
-                                    <tr>
-                                        <td valign="middle" bgcolor="#ffffff" class="product-inner">
-                                            <p class="meta" mc:edit="product_meta_two">In Stock - 2-3 day delivery</p>
-                                            <h2 mc:edit="product_title_two">Product Title</h2>
-                                            <p mc:edit="product_desc_two">Collaboratively administrate em powered markets.</p>
-
-                                            <table align="left"  border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                <tr>
-
-                                                    <!-- Module: Start: Prices -->
-                                                    <td valign="middle" class="prices">
-                                                        <small mc:edit="product_prev_price_two">$1599</small>
-                                                        <p class="price" mc:edit="product_price_two">$1299</p>
-                                                    </td>
-                                                    <!-- Module: End: Prices -->
-
-                                                    <!-- Module: Start: Button -->
-                                                    <td valign="top" width="100" align="left" class="btn-col">                                        
-                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                                            <tr>
-                                                                <td>
-                                                                    <div mc:edit="product_button_two">
-                                                                        <!--[if mso]>
-                                                                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36px;v-text-anchor:middle;width:100px;" arcsize="5%" strokecolor="#006dc7" fillcolor="#006dc7">
-                                                                            <w:anchorlock/>
-                                                                              <center style="color:#ffffff;font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight:100; font-size:16px;">Buy Now</center>
-                                                                            </v:roundrect>
-                                                                        <![endif]-->
-                                                                        <a href="#" class="product-button">Buy Now</a>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
-                                                    <!-- Module: End: Button -->
-
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                     <!-- Module: End: Product Content -->
-                                    <tr>
-                                        <td valign="top" class="space"></td>
-                                    </tr>
-                                </table>
-                                <!-- Section: End: Product Column -->
-
-
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- Section: End: Product Row -->            
-
-
-            <!-- Section: Start: Footer -->
-            <tr mc:repeatable="module" mc:variant="module_footer" mc:hideable>
-                <td align="center" width="100%"  valign="top" class="footer">
-                    <table class="table-inner" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
-                        <tr>
-                            <td bgcolor="#30363d" class="footer-inner" valign="top">
-                                <table class="table-full" align="left" border="0" cellpadding="0" cellspacing="0" width="31%">
-                                    <tr>
-                                        <td valign="top" class="footer-col-first">
-                                            <h3 mc:edit="modul_footer_title_one">Section Title</h3>
-                                            <p  mc:edit="modul_footer_desc_one">Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="table-full" align="left" border="0" cellpadding="0" cellspacing="0" width="31%">
-                                    <tr>
-                                        <td valign="top" class="footer-col-second">
-                                            <h3 mc:edit="modul_footer_title_two">Section Title</h3>
-                                            <p  mc:edit="modul_footer_desc_two">Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table class="table-full" align="left" border="0" cellpadding="0" cellspacing="0" width="31%">
-                                    <tr>
-                                        <td valign="top" class="footer-col-last">
-                                            <h3 mc:edit="modul_footer_title_three">Section Title</h3>
-                                            <p  mc:edit="modul_footer_desc_three">Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- Section: End: Footer -->
-
-
-            <!-- Section: Start: Disclaimer -->
             <tr>
-                <td align="center"  valign="top">
-                    <table border="0" cellpadding="0" cellspacing="0" width="600" class="full_width">
-                        <tr>
-                            <td valign="top" class="disclaimer">
-                                <h5 mc:edit="module_disclaimer_title" mc:hideable><b>Company Name A/S</b> - Ut enim ad minim veniam, quis nostrud exercitation</h5>
-                                <p mc:edit="module_disclaimer_desc" mc:hideable>Terms &amp; conditions apply. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a href="*|UPDATE_PROFILE|*">update your profile</a>.</p> 
-                                <p><a href="*|UNSUB|*" mc:edit="module_disclaimer_unsubscribe">Unsubscribe from future updates</a></p>   
+        		<td align="center" valign="top" width="100%">
+        			<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="full_wrapper">
+            
+                        <!-- Section: Start: Preheader -->
+                        <tr class="mb_hide" mc:hideable>
+                            <td align="center"  valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" class="full_width">
+                                    <tr>
+                                        <td valign="top" class="preheader">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="full_width">
+                                                <tr>    
+                                                    <td valign="top" align="left" mc:edit="module_preheader">
+                                                        <p>Enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                                                    </td>                    
+                                                    <td valign="middle" align="right">
+                                                        <a href="*|ARCHIVE|*" target="_blank" mc:edit="module_viewinbrowser">View this e-mail in your browser</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- Section: End: Disclaimer -->
+                        <!-- Section: End: Preheader -->           
+                    
+                        <!-- Section: Start: Header -->
+                        <tr mc:hideable>
+                            <td align="center" valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" class="full_width">
+                                    <tr>
+                                        <td valign="top" bgcolor="#30363d" class="branding">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="full_width">
+                                                <tr>
+                                                    <td align="left" valign="top" width="150" class="brandname" mc:edit="module_brandname">Brandname</td>
+                                                    <td  class="mb_hide" align="right" valign="middle">
+                                                        <a href="#" class="nav-link" mc:edit="module_link_one">Link item</a>
+                                                        <a href="#" class="nav-link" mc:edit="module_link_two">Link item</a>
+                                                        <a href="#" class="nav-link" mc:edit="module_link_three">Link item</a>
+                                                        <a href="#" class="nav-link" mc:edit="module_link_four">Link item</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- Section: End: Header -->
+            
+                        <!-- Section: Start: Full-width Image -->
+                        <tr mc:repeatable="module" mc:variant="module_image_row" mc:hideable>
+                            <td align="center" width="100%" class="full_width_image">
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" class="full_width">
+                                    <tr>
+                                        <td width="100%" valign="top">
+                                            <img src="http://placehold.it/600x350" alt="#" width="600" style="max-width:600px; display:block; width:100%; height:auto;" mc:label="header_image" mc:edit="module_image" mc:allowdesigner mc:allowtext/>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- Section: End: Full-width Image -->
+            
+                        <!-- Section: Start: Text Coloumn -->
+                        <tr mc:repeatable="module" mc:variant="module_text_row" mc:hideable>
+                            <td align="center"  valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" class="full_width">
+                                    <tr>
+                                        <td align="left" valign="top" bgcolor="#ffffff" class="full_width_text" mc:edit="module_body">
+                                            <h1>Headline H1</h1>
+                                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- Section: End: Text Coloumn -->
+            
+                        <!-- Section: Start: Product Row (HTML feed) -->
+                        <tr mc:repeatable="module" mc:variant="module_product_html_feed" mc:hideable class="product">
+                            <td align="center" valign="top" width="100%"  class="product-row" mc:edit="module_products_html">
+                                <table class="table-inner" align="center" border="0" cellpadding="0" cellspacing="0" width="600" >
+                                    <tr>
+                                        <td align="left" valign="top" width="96%"  bgcolor="#f5f5f5"  class="product-col" style="padding-top:20px;">
+            
+                                            <!-- Section: Start: Product Column -->
+                                            <table class="product-outer" align="left" border="0" cellpadding="0" cellspacing="0" width="46%">
+            
+            
+                                                <!-- Module: End: Product Image -->
+                                                <tr>
+                                                    <td valign="top" class="product-image">
+                                                        <img src="http://placehold.it/264x264" alt="#" />
+                                                    </td>
+                                                </tr>
+                                                <!-- Module: Start: Product Image -->
+            
+            
+                                                <!-- Module: Start: Product Content -->
+                                                <tr>
+                                                    <td valign="middle" bgcolor="#ffffff" class="product-inner">
+                                                        <p class="meta">In Stock - 2-3 day delivery</p>
+                                                        <h2>Product Title</h2>
+                                                        <p>Collaboratively administrate em powered markets.</p>
+            
+                                                        <table align="left"  border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tr>
+            
+                                                                <!-- Module: Start: Prices -->
+                                                                <td valign="middle" class="prices">
+                                                                    <small>$1599</small>
+                                                                    <p class="price">$1299</p>
+                                                                </td>
+                                                                <!-- Module: End: Prices -->
+            
+                                                                <!-- Module: Start: Button -->
+                                                                <td valign="top" width="100" align="left" class="btn-col">                                        
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div>
+                                                                                    <!--[if mso]>
+                                                                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36px;v-text-anchor:middle;width:100px;" arcsize="5%" strokecolor="#006dc7" fillcolor="#006dc7">
+                                                                                        <w:anchorlock/>
+                                                                                          <center style="color:#ffffff;font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight:100; font-size:16px;">Buy Now</center>
+                                                                                        </v:roundrect>
+                                                                                    <![endif]-->
+                                                                                    <a href="#" class="product-button">Buy Now</a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <!-- Module: End: Button -->
+            
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                 <!-- Module: End: Product Content -->
+                                                 <tr>
+                                                    <td valign="top" class="space"></td>
+                                                </tr>
+            
+                                            </table>
+                                            <!-- Section: End: Product Column -->
+            
+                                            <!-- Section: Start: Product Column -->
+                                            <table class="product-outer" align="left" border="0" cellpadding="0" cellspacing="0" width="46%">
+            
+            
+                                                <!-- Module: End: Product Image -->
+                                                <tr>
+                                                    <td valign="top" class="product-image">
+                                                        <img src="http://placehold.it/264x264" alt="#" />
+                                                    </td>
+                                                </tr>
+                                                <!-- Module: Start: Product Image -->
+            
+            
+                                                <!-- Module: Start: Product Content -->
+                                                <tr>
+                                                    <td valign="middle" bgcolor="#ffffff" class="product-inner">
+                                                        <p class="meta">In Stock - 2-3 day delivery</p>
+                                                        <h2>Product Title</h2>
+                                                        <p>Collaboratively administrate em powered markets.</p>
+            
+                                                        <table align="left"  border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tr>
+            
+                                                                <!-- Module: Start: Prices -->
+                                                                <td valign="middle" class="prices">
+                                                                    <small>$1599</small>
+                                                                    <p class="price">$1299</p>
+                                                                </td>
+                                                                <!-- Module: End: Prices -->
+            
+                                                                <!-- Module: Start: Button -->
+            
+                                                                <td valign="top" width="100" align="left" class="btn-col">                                        
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div>
+                                                                                    <!--[if mso]>
+                                                                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36px;v-text-anchor:middle;width:100px;" arcsize="5%" strokecolor="#006dc7" fillcolor="#006dc7">
+                                                                                        <w:anchorlock/>
+                                                                                          <center style="color:#ffffff;font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight:100; font-size:16px;">Buy Now</center>
+                                                                                        </v:roundrect>
+                                                                                    <![endif]-->
+                                                                                    <a href="#" class="product-button">Buy Now</a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <!-- Module: End: Button -->
+            
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                 <!-- Module: End: Product Content -->
+                                                <tr>
+                                                    <td valign="top" class="space"></td>
+                                                </tr>
+                                            </table>
+                                            <!-- Section: End: Product Column -->
+            
+            
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- Section: End: Product Row (HTML Feed) -->
+            
+            
+                        <!-- Section: Start: Product Row -->
+                        <tr mc:repeatable="module" mc:variant="module_products_editable" mc:hideable class="product">
+                            <td align="center" valign="top" width="100%"  class="product-row">
+                                <table class="table-inner" align="center" border="0" cellpadding="0" cellspacing="0" width="600" >
+                                    <tr>
+                                        <td align="left" valign="top" width="96%"  bgcolor="#f5f5f5"  class="product-col">
+            
+                                            <!-- Section: Start: Product Column -->
+                                            <table class="product-outer" align="left" border="0" cellpadding="0" cellspacing="0" width="46%">
+            
+            
+                                                <!-- Module: End: Product Image -->
+                                                <tr>
+                                                    <td valign="top" class="product-image">
+                                                        <img src="http://placehold.it/264x264" mc:edit="product_image_one"/>
+                                                    </td>
+                                                </tr>
+                                                <!-- Module: Start: Product Image -->
+            
+            
+                                                <!-- Module: Start: Product Content -->
+                                                <tr>
+                                                    <td valign="middle" bgcolor="#ffffff" class="product-inner">
+                                                        <p class="meta" mc:edit="product_meta_one">In Stock - 2-3 day delivery</p>
+                                                        <h2 mc:edit="product_title_one">Product Title</h2>
+                                                        <p mc:edit="product_desc_one">Collaboratively administrate em powered markets.</p>
+            
+                                                        <table align="left"  border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tr>
+            
+                                                                <!-- Module: Start: Prices -->
+                                                                <td valign="middle" class="prices">
+                                                                    <small mc:edit="product_prev_price_one">$1599</small>
+                                                                    <p class="price" mc:edit="product_price_one">$1299</p>
+                                                                </td>
+                                                                <!-- Module: End: Prices -->
+            
+                                                                <!-- Module: Start: Button -->
+                                                                <td valign="top" width="100" align="left" class="btn-col">                                        
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div mc:edit="product_button_one">
+                                                                                    <!--[if mso]>
+                                                                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36px;v-text-anchor:middle;width:100px;" arcsize="5%" strokecolor="#006dc7" fillcolor="#006dc7">
+                                                                                        <w:anchorlock/>
+                                                                                          <center style="color:#ffffff;font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight:100; font-size:16px;">Buy Now</center>
+                                                                                        </v:roundrect>
+                                                                                    <![endif]-->
+                                                                                    <a href="#" class="product-button">Buy Now</a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <!-- Module: End: Button -->
+            
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                 <!-- Module: End: Product Content -->
+                                                <tr>
+                                                    <td valign="top" class="space"></td>
+                                                </tr>
+                                            </table>
+                                            <!-- Section: End: Product Column -->
+            
+                                            <!-- Section: Start: Product Column -->
+                                            <table class="product-outer" align="left" border="0" cellpadding="0" cellspacing="0" width="46%">
+            
+            
+                                                <!-- Module: End: Product Image -->
+                                                <tr>
+                                                    <td valign="top" class="product-image">
+                                                        <img src="http://placehold.it/264x264" mc:edit="product_image_two"/>
+                                                    </td>
+                                                </tr>
+                                                <!-- Module: Start: Product Image -->
+            
+            
+                                                <!-- Module: Start: Product Content -->
+                                                <tr>
+                                                    <td valign="middle" bgcolor="#ffffff" class="product-inner">
+                                                        <p class="meta" mc:edit="product_meta_two">In Stock - 2-3 day delivery</p>
+                                                        <h2 mc:edit="product_title_two">Product Title</h2>
+                                                        <p mc:edit="product_desc_two">Collaboratively administrate em powered markets.</p>
+            
+                                                        <table align="left"  border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tr>
+            
+                                                                <!-- Module: Start: Prices -->
+                                                                <td valign="middle" class="prices">
+                                                                    <small mc:edit="product_prev_price_two">$1599</small>
+                                                                    <p class="price" mc:edit="product_price_two">$1299</p>
+                                                                </td>
+                                                                <!-- Module: End: Prices -->
+            
+                                                                <!-- Module: Start: Button -->
+                                                                <td valign="top" width="100" align="left" class="btn-col">                                        
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div mc:edit="product_button_two">
+                                                                                    <!--[if mso]>
+                                                                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36px;v-text-anchor:middle;width:100px;" arcsize="5%" strokecolor="#006dc7" fillcolor="#006dc7">
+                                                                                        <w:anchorlock/>
+                                                                                          <center style="color:#ffffff;font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight:100; font-size:16px;">Buy Now</center>
+                                                                                        </v:roundrect>
+                                                                                    <![endif]-->
+                                                                                    <a href="#" class="product-button">Buy Now</a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <!-- Module: End: Button -->
+            
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                 <!-- Module: End: Product Content -->
+                                                <tr>
+                                                    <td valign="top" class="space"></td>
+                                                </tr>
+                                            </table>
+                                            <!-- Section: End: Product Column -->
+            
+            
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- Section: End: Product Row -->            
+            
+            
+                        <!-- Section: Start: Footer -->
+                        <tr mc:repeatable="module" mc:variant="module_footer" mc:hideable>
+                            <td align="center" width="100%"  valign="top" class="footer">
+                                <table class="table-inner" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                                    <tr>
+                                        <td bgcolor="#30363d" class="footer-inner" valign="top">
+                                            <table class="table-full" align="left" border="0" cellpadding="0" cellspacing="0" width="31%">
+                                                <tr>
+                                                    <td valign="top" class="footer-col-first">
+                                                        <h3 mc:edit="modul_footer_title_one">Section Title</h3>
+                                                        <p  mc:edit="modul_footer_desc_one">Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="table-full" align="left" border="0" cellpadding="0" cellspacing="0" width="31%">
+                                                <tr>
+                                                    <td valign="top" class="footer-col-second">
+                                                        <h3 mc:edit="modul_footer_title_two">Section Title</h3>
+                                                        <p  mc:edit="modul_footer_desc_two">Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="table-full" align="left" border="0" cellpadding="0" cellspacing="0" width="31%">
+                                                <tr>
+                                                    <td valign="top" class="footer-col-last">
+                                                        <h3 mc:edit="modul_footer_title_three">Section Title</h3>
+                                                        <p  mc:edit="modul_footer_desc_three">Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- Section: End: Footer -->
+            
+            
+                        <!-- Section: Start: Disclaimer -->
+                        <tr>
+                            <td align="center"  valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" class="full_width">
+                                    <tr>
+                                        <td valign="top" class="disclaimer">
+                                            <h5 mc:edit="module_disclaimer_title" mc:hideable><b>Company Name A/S</b> - Ut enim ad minim veniam, quis nostrud exercitation</h5>
+                                            <p mc:edit="module_disclaimer_desc" mc:hideable>Terms &amp; conditions apply. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a href="*|UPDATE_PROFILE|*">update your profile</a>.</p> 
+                                            <p><a href="*|UNSUB|*" mc:edit="module_disclaimer_unsubscribe">Unsubscribe from future updates</a></p>   
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- Section: End: Disclaimer -->
 
+                </table>
+            </td>
+        </tr>
 
         </table>     
     </body>
