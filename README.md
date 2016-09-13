@@ -83,7 +83,7 @@ Mikkel Tschentscher, +45 22 51 31 79, based in Copenhagen, Denmark.
 
 ## Support
 
-If you have any questions feel free to email me at [hello@mikkeltschentscher](mailto:hello@mikkeltschentscher.dk).
+If you have any questions feel free to email me at [hello@mikkeltschentscher.dk](mailto:hello@mikkeltschentscher.dk).
 
 
 ## License
